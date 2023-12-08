@@ -50,7 +50,7 @@
   <body>
     <!-- ======= Mobile nav toggle button ======= -->
     <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-    <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+    <i class="bi bi-list mobile-nav-toggle d-lg-none mobile_menu"></i>
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex flex-column justify-content-center">
       <nav id="navbar" class="navbar nav-menu">
@@ -69,13 +69,13 @@
             <a href="#resume" class="nav-link scrollto"
               ><i class="bx bx-file-blank"></i> <span>Resume</span></a
             >
-          </li>
+          </li> -->
           <li>
             <a href="#portfolio" class="nav-link scrollto"
-              ><i class="bx bx-book-content"></i> <span>Portfolio</span></a
+              ><i class="bx bx-book-content"></i> <span>Events</span></a
             >
           </li>
-          <li>
+          <!-- <li>
             <a href="#services" class="nav-link scrollto"
               ><i class="bx bx-server"></i> <span>Services</span></a
             >
@@ -96,17 +96,22 @@
       <div class="container" data-aos="zoom-in" data-aos-delay="100">
         <h1>OLENA NATOILAD</h1>
         <p>
-          I'm
           <span
             class="typed"
-            data-typed-items="psychologist, logotherapist, coach"
+            data-typed-items="Психолог, Коуч, Психотерапевт, Ментор, Приватна практика"
           ></span>
         </p>
         <div class="social-links">
-          <a href="https://www.facebook.com/olena.natoilad" class="facebook"
+          <a
+            target="_blank"
+            href="https://www.facebook.com/olena.natoilad"
+            class="facebook"
             ><i class="bx bxl-facebook"></i
           ></a>
-          <a href="https://www.instagram.com/olena_natoilad" class="instagram"
+          <a
+            target="_blank"
+            href="https://www.instagram.com/olena_natoilad"
+            class="instagram"
             ><i class="bx bxl-instagram"></i
           ></a>
           <a
@@ -125,22 +130,28 @@
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>About</h2>
-            <p>
+            <!-- <p>
               Я не психолог класичний, не коуч традиційний і не психотерапевт
               всезнаючий. Я зцілюю любов’ю, вірою та на рівні душі, а потім
               словами та техніками.
-            </p>
+            </p> -->
           </div>
 
           <div class="row">
             <div class="col-lg-4">
-              <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" />
+              <img
+                style="border-radius: 10px"
+                src="assets/img/profile-img.jpg"
+                class="img-fluid"
+                alt="Avatar"
+              />
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content">
               <h3>Психолог Коуч Ментор. Приватна практика</h3>
               <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Я не психолог класичний, не коуч традиційний і не психотерапевт
+                всезнаючий. Я зцілюю любов’ю, вірою та на рівні душі, а потім
+                словами та техніками.
               </p>
               <div class="row">
                 <div class="col-lg-6">
@@ -481,10 +492,10 @@
       <!-- End Resume Section -->
 
       <!-- ======= Portfolio Section ======= -->
-      <!-- <section id="portfolio" class="portfolio section-bg">
+      <section id="portfolio" class="portfolio section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Portfolio</h2>
+            <h2>Events</h2>
             <p>
               Magnam dolores commodi suscipit. Necessitatibus eius consequatur
               ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
@@ -529,14 +540,13 @@
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="App 1"
-                      ><i class="bx bx-plus"></i
                     ></a>
                     <a
                       href="portfolio-details.html"
                       class="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
-                      ><i class="bx bx-link"></i
+                      ><i class="bx bx-link events_link"></i
                     ></a>
                   </div>
                 </div>
@@ -559,14 +569,13 @@
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Web 3"
-                      ><i class="bx bx-plus"></i
                     ></a>
                     <a
                       href="portfolio-details.html"
                       class="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
-                      ><i class="bx bx-link"></i
+                      ><i class="bx bx-link events_link"></i
                     ></a>
                   </div>
                 </div>
@@ -589,14 +598,14 @@
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="App 2"
-                      ><i class="bx bx-plus"></i
-                    ></a>
+                    >
+                    </a>
                     <a
                       href="portfolio-details.html"
                       class="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
-                      ><i class="bx bx-link"></i
+                      ><i class="bx bx-link events_link"></i
                     ></a>
                   </div>
                 </div>
@@ -619,14 +628,13 @@
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Card 2"
-                      ><i class="bx bx-plus"></i
                     ></a>
                     <a
                       href="portfolio-details.html"
                       class="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
-                      ><i class="bx bx-link"></i
+                      ><i class="bx bx-link events_link"></i
                     ></a>
                   </div>
                 </div>
@@ -649,14 +657,13 @@
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Web 2"
-                      ><i class="bx bx-plus"></i
                     ></a>
                     <a
                       href="portfolio-details.html"
                       class="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
-                      ><i class="bx bx-link"></i
+                      ><i class="bx bx-link events_link"></i
                     ></a>
                   </div>
                 </div>
@@ -679,14 +686,13 @@
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="App 3"
-                      ><i class="bx bx-plus"></i
                     ></a>
                     <a
                       href="portfolio-details.html"
                       class="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
-                      ><i class="bx bx-link"></i
+                      ><i class="bx bx-link events_link"></i
                     ></a>
                   </div>
                 </div>
@@ -709,14 +715,13 @@
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Card 1"
-                      ><i class="bx bx-plus"></i
                     ></a>
                     <a
                       href="portfolio-details.html"
                       class="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
-                      ><i class="bx bx-link"></i
+                      ><i class="bx bx-link events_link"></i
                     ></a>
                   </div>
                 </div>
@@ -739,14 +744,13 @@
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Card 3"
-                      ><i class="bx bx-plus"></i
                     ></a>
                     <a
                       href="portfolio-details.html"
                       class="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
-                      ><i class="bx bx-link"></i
+                      ><i class="bx bx-link events_link"></i
                     ></a>
                   </div>
                 </div>
@@ -769,14 +773,13 @@
                       data-gallery="portfolioGallery"
                       class="portfolio-lightbox"
                       title="Web 3"
-                      ><i class="bx bx-plus"></i
                     ></a>
                     <a
                       href="portfolio-details.html"
                       class="portfolio-details-lightbox"
                       data-glightbox="type: external"
                       title="Portfolio Details"
-                      ><i class="bx bx-link"></i
+                      ><i class="bx bx-link events_link"></i
                     ></a>
                   </div>
                 </div>
@@ -784,7 +787,7 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- End Portfolio Section -->
 
       <!-- ======= Services Section ======= -->
@@ -995,18 +998,6 @@
           <div class="row mt-1">
             <div class="col-lg-4">
               <div class="info">
-                <div class="address">
-                  <i class="bi bi-geo-alt"></i>
-                  <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-
-                <div class="email">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>info@example.com</p>
-                </div>
-
                 <div class="phone">
                   <i class="bi bi-phone"></i>
                   <h4>Call:</h4>
@@ -1078,13 +1069,20 @@
         <h3>OLENA NATOILAD</h3>
         <p>Психолог Коуч Ментор. Приватна практика</p>
         <div class="social-links">
-          <a href="https://www.facebook.com/olena.natoilad" class="facebook"
+          <a
+            target="_blank"
+            href="https://www.facebook.com/olena.natoilad"
+            class="facebook"
             ><i class="bx bxl-facebook"></i
           ></a>
-          <a href="https://www.instagram.com/olena_natoilad" class="instagram"
+          <a
+            target="_blank"
+            href="https://www.instagram.com/olena_natoilad"
+            class="instagram"
             ><i class="bx bxl-instagram"></i
           ></a>
           <a
+            target="_blank"
             href="https://www.linkedin.com/in/olena-natoilad-2002a1180"
             class="linkedin"
             ><i class="bx bxl-linkedin"></i
