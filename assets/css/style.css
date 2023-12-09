@@ -50,7 +50,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: rgba(0, 0, 255, 0.9);
+  background: rgba(0, 130, 255, 0.9);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -879,17 +879,17 @@ section {
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
-.services .iconbox-rgba(0, 130, 205, 0.9) i {
+/* .services .iconbox-blue (0, 130, 205, 0.9) i {
   color: #47aeff;
 }
 
-.services .iconbox-rgba(0, 130, 205, 0.9):hover .icon i {
+.services .iconbox-rgb (0, 130, 205, 0.9):hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-rgba(0, 130, 205, 0.9):hover .icon path {
+.services .iconbox-rgb (0, 130, 205, 0.9):hover .icon path {
   fill: #47aeff;
-}
+} */
 
 .services .iconbox-orange i {
   color: #ffa76e;
