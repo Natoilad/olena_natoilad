@@ -1079,8 +1079,8 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
-  color: #fff;
+  background: rgba(0, 130, 205, 0.9);
+  color: yellow;
 }
 
 .contact .php-email-form {
